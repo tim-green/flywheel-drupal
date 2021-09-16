@@ -1,0 +1,7 @@
+name: Flywheel
+type: theme
+description: ' <a href=https://www.timgreen.ws>TGWS</a>'
+package: core
+base theme: false
+core: 8.x
+core_version_requirement: ^8 || ^9

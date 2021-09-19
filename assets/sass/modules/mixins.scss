@@ -144,3 +144,23 @@
   // Output standard non-prefixed declaration
   #{$property}: $value;
 }
+
+/// Mixin for buttons
+@mixin globalButton(){
+	background: $navy;
+	cursor: pointer;
+	color: $white;
+	border: 0;
+	padding: 14px 30px;
+	line-height: 100%;
+	margin-right: 2px;
+	display: inline-block;
+	@include border-radius(0px);
+	@include transition(all 0.3s);
+}
+
+/// Mixin for buttons:hover
+@mixin globalButtonHover(){
+    background: $orange;
+    color: $white;
+}

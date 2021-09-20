@@ -58,7 +58,8 @@ $orange: #ff5e14;
 // Base
 $base-font-size: 14px;
 $base-line-height: 1.7;
-$color-primary: $black;
+$color-primary: $rich-black;
+$color-secondary: $forest;
 
 //Google font - poppins
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
@@ -89,23 +90,23 @@ $text-none: none;
 
 //Headings  
 // Header
-$header-bgColour: $black;
-$header-txtColour: $white;
+$header-bgColour: $rich-black;
+$header-txtColour: $offwhite;
 
 //Section
-$section-colour: $pink;
+$section-colour: $peach;
 
 //Navigation
 //menu
-$desktop-menuColour: $navy;
-$desktop-menuHover: $orange;
-$desktop-menuDDbg: $white;
-$desktop-menuDDTxt: $navy;
-$desktop-menuDDHover: $orange;
+$desktop-menuColour: $forest;
+$desktop-menuHover: $gold;
+$desktop-menuDDbg: $forest;
+$desktop-menuDDTxt: $cream;
+$desktop-menuDDHover: $gold;
 
 $mobile-menubg:rgba($black,.80);
-$mobile-menuColour: $white;
-$mobile-menuHover: $white;
+$mobile-menuColour: $cream;
+$mobile-menuHover: $gold;
 $mobile-menuDDbg: '';
 $mobile-menuDDTxt: '';
 $mobile-menuDDHover: '';

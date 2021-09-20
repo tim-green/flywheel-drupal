@@ -1,25 +1,25 @@
 {
-  "name": "greeny-framework",
-  "version": "2.1.0",
+  "name": "flywheel-drupal",
+  "version": "1.0.0",
   "license": "GPL-2.0",
-  "description": "A WordPress Starter Theme built with Bootstrap 4.",
-  "homepage": "https://www.timgreen.ws",
+  "description": "A Drupal theme",
+  "homepage": "https://drupal.timgreen.ws/flywheel",
   "author": "Tim Green",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tim-green/framework-wp.git"
+    "url": "https://github.com/tim-green/flywheel-drupal"
   },
   "scripts": {
     "watch": "grunt watch"
   },
   "dependencies": {
     "grunt-contrib-clean": "^2.0.0",
-    "grunt-contrib-sass": "^2.0.0"
+    "grunt-contrib-sass": "^2.0.0",
+    "bootstrap": "4.6.0",
     "smartmenus": "^1.1.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.4",
-    "bootstrap": "4.6.0",
     "cssnano": "^5.0.8",
     "grunt": "^1.4.1",
     "grunt-browser-sync": "^2.2.0",

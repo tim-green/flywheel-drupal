@@ -5,58 +5,7 @@
 
 */
 
-/**
- * Add custom Bootstrap styles
- */
-
-// Bootstrap 4 Customization options: https://getbootstrap.com/docs/4.0/getting-started/theming/#sass-options
-/*
-// Options
-$enable-rounded:            true !default;
-$enable-shadows:            false !default;
-$enable-gradients:          false !default;
-$enable-transitions:        true !default;
-$enable-hover-media-query:  false !default;
-$enable-grid-classes:       true !default;
-$enable-print-styles:       true !default;
-
-$spacer:                    1rem !default;
-
-// Grayscale vars
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #868e96 !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
-
-// Color vars
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #dc3545 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #ffc107 !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
-
-// Fonts
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
-$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
-$font-family-monospace:   Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
-$font-family-base:        $font-family-sans-serif !default;
-*/
-
-
 // Colours
-
-$color-primary: #000;
-
 //Black
 $black: #000;
 $medium-black: #1d1d1d;
@@ -74,25 +23,27 @@ $lightwhite: #e8e8e8;
 $soft-red: #dc535b;
 $medium-red: #c9373f;
 
+//Pink
+$pink: #fc466b;
+
 //Blue
 $navy: #001659;
 $lightblue: #435a6b;
 
+//orange
+$orange: #ff5e14;
+
 // Base
-
+$base-font-size: 14px;
 $base-line-height: 1.7;
+$color-primary: $black;
 
-//Google font
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 //Google font - poppins
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
 
 //Typekit font
 
 //Fonts
-$font-stack: Helvetica, sans-serif;
-$roboto-slab: 'Roboto Slab', serif;   
-$open-sans: 'Open Sans', sans-serif;
 $font-stack: 'Poppins',Helvetica, sans-serif;
 
 
@@ -113,3 +64,29 @@ $text-lower: lowercase;
 $text-upper: uppercase;
 $text-none: none;
 
+
+//Headings  
+// Header
+$header-bgColour: $black;
+$header-txtColour: $white;
+
+//Section
+$section-colour: $pink;
+
+//Navigation
+//menu
+$desktop-menuColour: $navy;
+$desktop-menuHover: $orange;
+$desktop-menuDDbg: $white;
+$desktop-menuDDTxt: $navy;
+$desktop-menuDDHover: $orange;
+
+$mobile-menubg:rgba($black,.80);
+$mobile-menuColour: $white;
+$mobile-menuHover: $white;
+$mobile-menuDDbg: '';
+$mobile-menuDDTxt: '';
+$mobile-menuDDHover: '';
+
+//Borders
+$border-Colour: $lightwhite;

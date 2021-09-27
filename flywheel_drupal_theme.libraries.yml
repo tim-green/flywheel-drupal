@@ -12,6 +12,23 @@ bootstrap:
     - core/drupal.ajax
     - core/drupal
     - core/drupalSettings
+
+# global components
+global-components:
+  Version: 1.x
+  css:
+    theme:
+      assets/build/app.min.css: {}
+     
+  js:
+      assets/build/app.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
+
 # Font Awesome 5.0
 fontawesome:
   version: 1.x

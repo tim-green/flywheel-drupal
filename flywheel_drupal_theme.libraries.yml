@@ -12,3 +12,9 @@ bootstrap:
     - core/drupal.ajax
     - core/drupal
     - core/drupalSettings
+# Font Awesome 5.0
+fontawesome:
+  version: 1.x
+  css:
+    theme:
+      assets/css/fontawesome-all.min.css: {}

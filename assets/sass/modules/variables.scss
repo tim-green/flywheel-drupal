@@ -17,14 +17,15 @@ $rich-black: #0C1618;
 $darker-gray: #272727;
 $dark-gray:#101010;
 $medium-gray: #888;
+$gray: #e3e3e3;
 $light-gray: #d1d1d1;
-
-
-
 
 //Green
 // - Currently using as Secondary colour
 $forest: #004643;
+$midforest: #325e1c;
+$midgreen: #108441;
+$mint: #86b59a;
 
 //White
 $white: #fff;
@@ -38,10 +39,17 @@ $cream: #FAF4D3;
 
 //Yellow
 $gold: #D1AC00;
+$yellow: #e09600;
+$lightyellow: #f4daa6;
 
 //Red
+$deep-red: #a51b00;
 $soft-red: #dc535b;
 $medium-red: #c9373f;
+$light-red: #f9c9bf;
+
+//Brown
+$bronze: #734c00;
 
 //Pink
 $pink: #fc466b;
@@ -51,15 +59,20 @@ $peach: #F6BE9A;
 //Blue
 $navy: #001659;
 $lightblue: #435a6b;
+$oceanblue: #008ee6;
 
 //orange
 $orange: #ff5e14;
-
+$lightorange: #e09600;
 // Base
-$base-font-size: 14px;
+$base-font-size: 16px;
 $base-line-height: 1.7;
 $color-primary: $rich-black;
 $color-secondary: $forest;
+
+//Links
+$linkColor: $forest;
+$linkColorHover: $gold;
 
 //Google font - poppins
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap);
@@ -90,26 +103,26 @@ $text-none: none;
 
 //Headings  
 // Header
-$header-bgColour: $rich-black;
-$header-txtColour: $offwhite;
+$header-bgColor: $rich-black;
+$header-txtColor: $offwhite;
 
 //Section
-$section-colour: $peach;
+$section-color: $peach;
 
 //Navigation
 //menu
-$desktop-menuColour: $forest;
+$desktop-menuColor: $forest;
 $desktop-menuHover: $gold;
 $desktop-menuDDbg: $forest;
 $desktop-menuDDTxt: $cream;
 $desktop-menuDDHover: $gold;
 
 $mobile-menubg:rgba($black,.80);
-$mobile-menuColour: $cream;
+$mobile-menuColor: $cream;
 $mobile-menuHover: $gold;
 $mobile-menuDDbg: '';
 $mobile-menuDDTxt: '';
 $mobile-menuDDHover: '';
 
 //Borders
-$border-Colour: $lightwhite;
+$border-Color: $lightwhite;

@@ -46,6 +46,18 @@ fontawesome:
   css:
     theme:
       assets/css/fontawesome-all.min.css: {}
+
+# SmartMenus
+smartmenus:
+  version: 1.x
+  css:
+    theme:
+      assets/css/sm-core-css.css: {}
+  js:
+    assets/js/vendor/jquery.smartmenus.min.js: {}
+  dependencies:
+    - core/jquery
+
 # Owl Slider
 owl:
   version: 1.x

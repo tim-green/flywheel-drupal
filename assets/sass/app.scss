@@ -1,17 +1,8 @@
 /*!
 
-  This is the core import file. Section your Sass stylesheets according to the below structure for a nice flow.
+  Flywheel Drupal theme sass file.
 
 */
-
-
-/*
-
- ==== Bootstrap Import ====
-
-*/
-
-@import "../../node_modules/bootstrap/scss/bootstrap";
 
 /*
 
@@ -19,12 +10,11 @@
 
 */
 
-
 @import "modules/mixins";
 @import "modules/variables";
-@import "modules/wp-default";
 @import "modules/base";
 @import "modules/typography";
+@import "modules/media-queries";
 
 /*
 
@@ -32,7 +22,8 @@
 
 */
 
-
+@import "plugins/flexslider";
+@import "plugins/owl-slider";
 
 /*
 
@@ -40,7 +31,10 @@
 
 */
 
-
+@import "components/forms";
+@import "components/navigation";
+@import "components/slider";
+@import "components/messages";
 
 /*
 
@@ -58,3 +52,6 @@
  ==== Pages ====
 
 */
+
+@import "pages/pages";
+

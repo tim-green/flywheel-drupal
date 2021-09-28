@@ -1,17 +1,17 @@
 # Bootstrap v4.0.0
-bootstrap:
-  version: 1.x
-  css:
-    theme:
-      assets/css/bootstrap.min.css: {}
-  js:
-    assets/js/plugins/popper.min.js: {}
-    assets/js/vendor/bootstrap.min.js: {}
-  dependencies:
-    - core/jquery
-    - core/drupal.ajax
-    - core/drupal
-    - core/drupalSettings
+# bootstrap:
+#   version: 1.x
+#   css:
+#     theme:
+#       assets/css/bootstrap.min.css: {}
+#   js:
+#     assets/js/plugins/popper.min.js: {}
+#     assets/js/vendor/bootstrap.min.js: {}
+#   dependencies:
+#     - core/jquery
+#     - core/drupal.ajax
+#     - core/drupal
+#     - core/drupalSettings
 
 # global components
 global-components:
@@ -30,43 +30,43 @@ global-components:
     - core/jquery.once
 
 # flexslider
-flexslider:
-  version: 1.x
-  css:
-    theme:
-      assets/css/flexslider.css: {}
-  js:
-    assets/js/vendor/jquery.flexslider-min.js: {}
-  dependencies:
-    - core/jquery
+# flexslider:
+#   version: 1.x
+#   css:
+#     theme:
+#       assets/css/flexslider.css: {}
+#   js:
+#     assets/js/vendor/jquery.flexslider-min.js: {}
+#   dependencies:
+#     - core/jquery
 
 # Font Awesome 5.0
-fontawesome:
-  version: 1.x
-  css:
-    theme:
-      assets/css/fontawesome-all.min.css: {}
+# fontawesome:
+#   version: 1.x
+#   css:
+#     theme:
+#       assets/css/fontawesome-all.min.css: {}
 
 # SmartMenus
-smartmenus:
-  version: 1.x
-  css:
-    theme:
-      assets/css/sm-core-css.css: {}
-  js:
-    assets/js/vendor/jquery.smartmenus.min.js: {}
-  dependencies:
-    - core/jquery
+# smartmenus:
+#   version: 1.x
+#   css:
+#     theme:
+#       assets/css/sm-core-css.css: {}
+#   js:
+#     assets/js/vendor/jquery.smartmenus.min.js: {}
+#   dependencies:
+#     - core/jquery
 
 # Owl Slider
-owl:
-  version: 1.x
-  css:
-    theme:
-      assets/css/owl.carousel.css: {}
-      assets/css/owl.theme.default.min.css: {}
-  js:
-    assets/js/vendor/owl.carousel.min.js: {}
-  dependencies:
-    - core/jquery
+# owl:
+#   version: 1.x
+#   css:
+#     theme:
+#       assets/css/owl.carousel.css: {}
+#       assets/css/owl.theme.default.min.css: {}
+#   js:
+#     assets/js/vendor/owl.carousel.min.js: {}
+#   dependencies:
+#     - core/jquery
 

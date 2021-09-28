@@ -46,3 +46,15 @@ fontawesome:
   css:
     theme:
       assets/css/fontawesome-all.min.css: {}
+# Owl Slider
+owl:
+  version: 1.x
+  css:
+    theme:
+      assets/css/owl.carousel.css: {}
+      assets/css/owl.theme.default.min.css: {}
+  js:
+    assets/js/vendor/owl.carousel.min.js: {}
+  dependencies:
+    - core/jquery
+

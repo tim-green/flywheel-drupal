@@ -10,6 +10,8 @@
 
 */
 
+@import "modules/bootstrap";
+@import "modules/fontawesome";
 @import "modules/mixins";
 @import "modules/variables";
 @import "modules/base";
@@ -18,12 +20,15 @@
 
 /*
 
- ==== Plugins ====
+ ==== Plugins, -core must be loaded first ====
 
 */
 
+@import "plugins/flexslider-core";
 @import "plugins/flexslider";
+@import "plugins/owl-slider-core";
 @import "plugins/owl-slider";
+@import "plugins/smartmenu";
 
 /*
 

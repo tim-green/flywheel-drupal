@@ -1,0 +1,126 @@
+/*
+
+  Flex Slider
+  +
+
+*/
+
+.flexslider {
+	border: 0;
+	max-width: 100%;
+	margin: 0;
+	overflow: hidden;
+  box-shadow: none;
+	border-radius: 0;
+
+	.slider-caption{
+		position: absolute;
+		top: 30%;
+		left: 0;
+		width: 90%;
+		z-index: 99;
+		text-align: left;
+		font-size: 1.2em;
+		line-height: 150%;
+		color: $white;
+		padding: 20px;
+	  border-radius:0;
+	}
+
+	.slider-title{
+		margin-bottom: 10px;
+		font-size: 2.25em;
+		font-weight: bold;
+		color: $white;
+		text-transform: uppercase;
+		width: 65%;
+	}
+
+	.slider-description{
+		display: inline-block;
+		clear: both;
+	}
+
+	.slides{
+		li{
+			position: relative;
+			&:after{
+				content:"";
+				position: absolute;
+				top: 0;
+				right: 0;
+				left: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.5);
+        transition: all 2s;
+			}
+		}
+	}
+
+	.flex-direction-nav{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		top: auto;
+		line-height: 1.5rem;
+		li{
+			list-style: none;
+			vertical-align: middle;
+			display: inline-block;
+			background: $forest;
+		}
+
+		a{
+			opacity: 1;
+			font-size: 0;
+			padding: 15px;
+			margin: 0;
+			position: static;
+			display: block;
+			width: 50px;
+			height: 50px;
+			
+			&.flex-prev{
+				left: 0;
+			}
+
+			&.flex-next{
+				background: $white;
+				&:before{
+					color: $forest;
+				}
+			}
+
+    		&:before,
+    		&:after{
+				@include fontSize(20px);
+    			color: $white;
+    		}
+		}
+	}
+
+	.flex-control-nav{
+		width: 20px;
+		height: 20px;
+		display: block;
+		background: $white;
+		cursor: pointer;
+		text-indent: -9999px;
+		border-radius: 0;
+		margin: 0;
+    box-shadow: none;
+    border-radius: 0;
+		text-align: left;
+		bottom: 0;
+		display: none !important;
+
+		&.flex-active{
+			background: $forest;
+	    }
+
+		li{
+			margin: 0;
+			vertical-align: middle;
+		}
+	}
+}

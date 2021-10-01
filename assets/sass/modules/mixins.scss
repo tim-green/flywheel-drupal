@@ -149,7 +149,7 @@
 
 /// Mixin for buttons
 @mixin globalButton(){
-	background: $navy;
+	background: $forest;
 	cursor: pointer;
 	color: $white;
 	border: 0;
@@ -157,12 +157,12 @@
 	line-height: 100%;
 	margin-right: 2px;
 	display: inline-block;
-	@include border-radius(0px);
-	@include transition(all 0.3s);
+  border-radius: 4px;
+  transition: all 0.3s;
 }
 
 /// Mixin for buttons:hover
 @mixin globalButtonHover(){
-    background: $orange;
-    color: $white;
+    background: $cream;
+    color: $black;
 }

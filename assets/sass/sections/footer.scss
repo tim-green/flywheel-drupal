@@ -5,6 +5,28 @@
 
 */
 
-// .footer{
-//   padding: 0 30px 150px;
-// }
+// Social media
+.footer-menu{
+	margin: 0;
+  border: 0;
+  background: url("assets/images/social-media-bg.png") cover;
+  color: $white;
+	padding: 80px 0;
+}
+
+.social-media{
+	padding: 10px 0 0;
+	text-align: center;
+  margin: 0;
+
+	a {
+		line-height: 100%;
+    @include fontSize(15px);
+		display: inline-block;
+		padding: 4px 8px;
+
+    &:hover{
+			color: $linkColorHover;
+		}
+	}
+}

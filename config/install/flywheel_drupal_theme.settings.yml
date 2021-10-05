@@ -1,0 +1,18 @@
+# Slider default values
+no_of_slides: 3
+
+# Slider default images & description
+slide_title_1: 'Superior craftsmanship'
+slide_description_1: 'Matched with exquisite taste' 
+slide_url_1: '#'
+slide_image_path_1: '/images/slider/slide_01.jpg'
+
+slide_title_2: 'Residential Construction'
+slide_description_2: 'Residential Construction' 
+slide_url_2: '#'
+slide_image_path_2: '/images/slider/slide_02.jpg'
+
+slide_title_3: 'Custom Homes and Remodels'
+slide_description_3: 'custom construction, remodeling and renovation projects.' 
+slide_url_3: '#'
+slide_image_path_3: '/images/slider/slide_03.jpg'

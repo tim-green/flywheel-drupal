@@ -31,3 +31,11 @@
   .messages__item + .messages__item {
     margin-top: 0.769em;
   }
+  
+  // Successful message
+  .messages--status {
+    color:$midforest;
+    background-color: $white;
+    border-color: $mint transparent;
+    box-shadow: none; 
+  }

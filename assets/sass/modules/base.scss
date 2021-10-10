@@ -128,4 +128,9 @@ td.is-active {
   background: none;
 }
 
+// Force browsers to calculate the width of a 'select all' th element.
+th.select-all {
+  width: 1px;
+}
+
 }

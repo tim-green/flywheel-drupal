@@ -48,3 +48,14 @@
     box-shadow: -8px 0 0 $lightorange; 
   }
   
+  // Error message
+  .messages--error {
+    background-color: $white;
+    color: $deep-red;
+    border-color: $light-red;
+  
+    p.error{
+      color: $deep-red;
+    }
+  }
+  

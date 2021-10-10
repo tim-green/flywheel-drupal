@@ -39,3 +39,12 @@
     border-color: $mint transparent;
     box-shadow: none; 
   }
+  
+  // Warning message
+  .messages--warning {
+    background: $cream;
+    border-color: $lightyellow transparent;
+    color: $bronze;
+    box-shadow: -8px 0 0 $lightorange; 
+  }
+  

@@ -147,6 +147,10 @@
   #{$property}: $value;
 }
 
+//Mixin for global rounded corners
+@mixin roundcorners() {
+  border-radius: 4px;
+}
 /// Mixin for buttons
 @mixin globalButton(){
 	background: $forest;

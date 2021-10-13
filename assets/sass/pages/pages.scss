@@ -20,6 +20,40 @@
 }
 
 
+// Testimonials
+.testimonials-wrap{
+	background: $offwhite;
+	border-top: solid 1px $lightwhite;
+	border-bottom: solid 1px $lightwhite;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 1em;
+	line-height: 160%;
+}
+
+.region-testimonials{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.testimonials-pic{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 10px;
+}
+
+.testimonials-pic img{
+	@include border-radius(50%);
+}
+
+.testimonials-author{
+	padding: 0 5px;
+	font-size: .75em;
+	color: $medium-gray;
+}
+
 // Price
 .price-table{
 	.card-header{

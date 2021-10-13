@@ -24,6 +24,16 @@ body{
 	}
 }
 
+
+
+// links Inline
+ul.links.inline li{
+	display: inline-block;
+	padding-right: 10px;
+}
+
+
+
 // Tabs
 div.tabs {
   margin: 1em 0;

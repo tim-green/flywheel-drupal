@@ -183,6 +183,25 @@
   }
 
 }
+@media only screen and (min-width: 375px) and (max-width: 767px) { 
+  .flexslider{
+    .slider-title, .more-link{
+      @include fontSize(12px);
+    }
+
+    .more-link{
+      padding: 9px 13px;
+    }
+  }
+
+ }
+
+@media (max-width: 1058px){
+
+  .menu-base-theme a, .menu-base-theme a:hover, .menu-base-theme a:focus, .menu-base-theme a:active, .menu-base-theme a.highlighted{
+    padding: 13px 23px;
+  }
+}
 /*
  * Responsive tables.
  */

@@ -20,6 +20,18 @@
 }
 
 
+// Team
+.team{
+	.team-list{
+		.region{
+			background:  $offwhite;
+			overflow: hidden;
+			padding: 10px;
+			border: 1px solid $light-gray;
+		}
+	}
+}
+
 // Bottom Widgets
 .bottom-widget{
 	background: $forest;

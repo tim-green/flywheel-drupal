@@ -56,6 +56,45 @@
 	}
 }
 
+
+// Region Header
+.site-branding{
+	margin: 0;
+}
+
+.region-header{
+	text-align: center;
+	padding: 12px;
+	background: $forest;
+}
+
+.region-header .brand{
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1.5em;
+
+	a{
+		color: #fff;
+		display: block;
+		text-transform: uppercase;
+		font-weight: 400;
+
+		img{
+			vertical-align: middle;
+
+			&:hover{
+				filter: opacity(50%);
+				transition: ease-in .5s;
+			}
+		}
+	}
+	.site-branding__slogan{
+		font-size: .5em;
+		text-transform: uppercase;
+		vertical-align: top;
+	}
+}
+
 // Search
 
 .search-block-form{

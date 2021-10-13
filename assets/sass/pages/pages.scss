@@ -20,6 +20,47 @@
 }
 
 
+.topwidget{
+	.fa,.fas{
+		font-size: 3em;
+	}
+	.topwidget-list .region .block{
+		position: relative;
+		background: $white;
+		padding: 20px 20px;
+		margin-bottom: 30px;
+		border: 1px solid  $offwhite;
+		border-bottom: 4px solid $forest;
+		
+
+		h2{
+			margin-bottom: 5px;
+		}
+		p:last-child{
+			margin: 0;
+		}
+
+		
+		img {
+			transition: ease-in-out .5s;
+			&:hover{
+			filter: grayscale(90%);
+			transition: ease-in .5s;
+			}
+		}
+	}
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			list-style: none;
+		    padding-bottom: 6px;
+		    margin-bottom: 6px;
+		    border-bottom: 1px solid $dark-gray;
+		}
+	}
+}
+
 // Contact page
 .contact-message-feedback-form{
     max-width: 650px;

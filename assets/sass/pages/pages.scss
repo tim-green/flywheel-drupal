@@ -19,6 +19,24 @@
 	padding: 20px 0;
 }
 
+
+// Contact page
+.contact-message-feedback-form{
+    max-width: 650px;
+    margin: 0 auto;
+    background: $white;
+    border: 1px solid $border-Color;
+    padding: 20px 30px;
+}
+
+.contact-message-feedback-form {
+	.form-text, 
+	.form-email, 
+	.form-textarea{ 
+		width: 100%; 
+	}
+}
+
 // User Login Form
 .user-login-form,
 .user-form,

@@ -19,6 +19,28 @@
 	padding: 20px 0;
 }
 
+// User Login Form
+.user-login-form,
+.user-form,
+.user-pass{
+	max-width: 500px;
+    margin: 40px auto;
+    border: 1px solid  $offwhite;
+    padding: 5px 20px;
+    background: $white;
+
+	.form-text,
+	.form-email{
+		width: 100%;
+	}
+}
+
+.form-composite > .fieldset-wrapper > .description, 
+.form-item .description {
+	color: $medium-gray;
+	font-style: italic;
+}
+
 // Maintenance
 .maintenance-page{
 	color: $white;

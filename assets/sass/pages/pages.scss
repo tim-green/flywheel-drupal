@@ -23,7 +23,7 @@
 	margin: 20px 0;
 	padding: 20px 30px;
 	display: inline-block;
-	color: #404040;
+	color: $dark-gray;
 	border: 1px solid $white;
 	background: rgb(242, 244, 207);
 	background: rgba(242, 244, 207, 0.88);
@@ -32,5 +32,18 @@
  	h1{
 	  text-transform: uppercase;
 	  font-weight: bold;
+	}
+}
+
+// Profile Page
+.path-user{
+	.profile {
+		> div{
+			display: inline-block;
+		}
+		.label{
+		  display: block;
+		  color:$dark-gray;
+		}
 	}
 }

@@ -34,6 +34,8 @@
   h1{
     margin: 0 0 30px;
   }
+.main-header {
+  
   nav{	  
 		border: 0;
 		margin: 0;
@@ -41,6 +43,10 @@
 		min-height: auto;
 		background: none;
 		@include border-radius(0);
+	}
+	.region{
+		position: relative;
+		padding: 25px 0;
 	}
 	.block{
 		margin: 0;

@@ -20,6 +20,35 @@
 }
 
 
+.clients{
+	background: $lightwhite;
+
+	.region{
+		ul {
+			padding-left: 0;
+			li{
+				display: inline-block;
+				width: 100%;
+				text-align: center;
+				//background: $lightwhite;
+
+				img{
+					max-width: auto;
+					transition: ease-out .9s;
+					border: 1px solid transparent;
+					filter: invert(80%);
+
+					&:hover{
+						filter: invert(0);
+						transition: ease-in .9s;
+						//border-color: $medium-gray;
+					}
+				}
+			}
+		}
+	}
+}
+
 // Testimonials
 .testimonials-wrap{
 	background: $offwhite;

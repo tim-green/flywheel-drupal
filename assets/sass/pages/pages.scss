@@ -19,6 +19,57 @@
 	padding: 20px 0;
 }
 
+.main-content{
+	padding: 45px 0 50px 0;
+}
+
+.top-message,
+.services{
+	text-align: center;
+}
+
+// .title{
+// 	text-decoration: underline 3px $mint;
+// }
+
+// Front Page
+.path-frontpage .feed-icon{
+	display: none;
+}
+
+.updates{
+	padding: 60px 10px;
+
+	.region{
+		padding: 10px 20px;
+    	background: $white;
+	}
+}
+
+
+//Global Content
+.content .text-formatted{
+	h2,h3{
+		margin: 1.8em 0 .6em;
+	}
+
+	img{
+		@include roundcorners();
+		margin-top: .9em;
+	}
+}
+
+.features{
+	background-color: $white;
+	background: url('assets/images/bg-features.jpg');
+	background-size: cover;
+}
+
+.footer{
+	tbody tr:hover, tbody tr:focus {
+	    background: none;
+	}
+}
 
 .clients{
 	background: $lightwhite;

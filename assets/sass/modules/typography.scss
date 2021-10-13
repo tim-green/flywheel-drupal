@@ -58,18 +58,40 @@ a {
 	}
 }
 
-  li{
+ol, ul {
+	padding-left: 20px;
+  margin-bottom: 20px;
 
+  li{
+    list-style: outside;
   }
 }
 
-code{
-  font-weight: bold;
-  padding: 2px 5px;
-  border-radius: 3px;
+.list-unstyled{
+  li{
+    list-style: none;
+  }
 }
 
-a{
-  color: $black;;
-  font-weight: bold;
+ol li{
+  list-style-type: decimal;
+}
+
+ul.links.inline{
+	padding: 0;
+
+	li{
+ 		list-style: none;
+ 	}
+}
+
+.form-email,
+.form-text,
+.form-textarea{
+  border: 1px solid $border-Color;
+  background: $white;
+}
+
+.block{
+  margin-bottom: 10px;
 }

@@ -42,6 +42,12 @@
 		background: none;
 		@include border-radius(0);
 	}
+	.block{
+		margin: 0;
+	}
+	p, .block{
+		margin: 0;
+	}
 }
 
 // Search

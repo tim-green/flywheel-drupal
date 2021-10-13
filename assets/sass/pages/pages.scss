@@ -18,3 +18,19 @@
 .clients{
 	padding: 20px 0;
 }
+
+.maintenance-msg {
+	margin: 20px 0;
+	padding: 20px 30px;
+	display: inline-block;
+	color: #404040;
+	border: 1px solid $white;
+	background: rgb(242, 244, 207);
+	background: rgba(242, 244, 207, 0.88);
+	box-shadow: 5px 5px 0 $white;
+
+ 	h1{
+	  text-transform: uppercase;
+	  font-weight: bold;
+	}
+}

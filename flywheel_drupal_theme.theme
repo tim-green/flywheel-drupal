@@ -30,7 +30,7 @@ function flywheel_drupal_theme_preprocess_page(&$variables) {
     $variables['topwidget_class'] = 'col-sm-6';
   }
   else {
-    $variables['topwidget_class'] = 'col-sm-4';
+    $variables['topwidget_class'] = 'col-sm-12';
   }
 
 
